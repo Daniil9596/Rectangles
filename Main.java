@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 import java.util.*;
 import java.lang.Math;
@@ -71,14 +71,14 @@ public class Main {
         Rectangle r4 = new Rectangle(-1.0, -1.0, 1.0, 1.0);
         Rectangle r5 = new Rectangle(5.0, 2.0, 0.0, 0.0);
 
-        System.out.println("Squares: ");
+        System.out.println("Areas: ");
         System.out.println("S(r1) = " + r1.getArea());
         System.out.println("S(r2) = " + r2.getArea());
         System.out.println("S(r3) = " + r3.getArea());
         System.out.println("S(r4) = " + r4.getArea());
         System.out.println("S(r5) = " + r5.getArea());
 
-        System.out.println("Intersected Squares: ");
+        System.out.println("Intersected Areas: ");
         System.out.println("S(r1) /\\ S(r2) = " + r1.getIntersectedArea(r2));
         System.out.println("S(r1) /\\ S(r3) = " + r1.getIntersectedArea(r3));
         System.out.println("S(r1) /\\ S(r4) = " + r1.getIntersectedArea(r4));
